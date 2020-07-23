@@ -35,7 +35,7 @@
                                         <lab:Camera
                                                 id="idCamera"
                                                 width="800"
-                                                height="450"
+                                                height="600"
                                                 snapshot=".onSnapshot"
                                                 singleShotMode="false" />
 			                        </l:mainContent>
