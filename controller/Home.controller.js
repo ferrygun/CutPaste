@@ -7,7 +7,7 @@ sap.ui.define([
     "use strict";
     var socket;
 
-    socket = io('https://192.168.0.105:3000');
+    socket = io('https://f86a0fb1cd78.ngrok.io');
     console.log(socket);
 
     socket.on('req', function(data) {
