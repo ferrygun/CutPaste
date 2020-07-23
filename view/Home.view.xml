@@ -52,7 +52,7 @@
                 		                        <Image
                 			                            src="{src}"
                 			                            densityAware="true"
-                			                            height="100px" >
+                			                            height="100%" >
                 		                        </Image>
                 	                        </CustomListItem>
                                         </List>
