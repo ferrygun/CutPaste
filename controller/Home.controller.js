@@ -7,7 +7,7 @@ sap.ui.define([
     "use strict";
     var socket;
 
-    socket = io('https://f86a0fb1cd78.ngrok.io');
+    socket = io('https://f86a0fb1cd78.ngrok.io', { transport : ['websocket'] });
     console.log(socket);
 
     socket.on('req', function(data) {
